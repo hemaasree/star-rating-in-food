@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inspiration&family=Noto+Sans+Mono:wght@100..900&family=Oswald:wght@200..700&family=Overlock+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sevillana&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height:100vh;
+    background: rgb(199, 154, 240);
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.content{
+    margin-bottom:20px;
+    font-family: "Overlock SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:50px;
+
+}
+.content span{
+    color:rgb(101, 24, 178);
+}
+.card-title{
+    font-family: "Overlock SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.star{
+    background-color: unset;
+    border: none;
+    color:goldenrod;
+    font-size: 70px;
+ 
+
+}
+.card{
+   
+    border-bottom-right-radius:50px;
+    border-bottom-left-radius:50px;
+    
+
+}
+.btn{
+ 
+    width:100%;
+    padding:20px;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    border-bottom-right-radius:50px;
+    border-bottom-left-radius:50px;
+    background:rgb(101, 24, 178) ;
+}
+.star-rating {
+    font-size: 30px;
+    font-family: "Overlock SC", sans-serif;
+
+}
+.card-text{
+    font-size: 30px;
+}
